@@ -44,7 +44,7 @@
 }
 
 .card-body {
-    display: MOUSE_DOWN flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: calc(100% - 60px);
