@@ -189,11 +189,11 @@ const StudentProfileRight = () => {
 
                 {/* // Replace the existing student_right_content_3 section with this */}
                 <div className="student_right_content_3 p-3">
-                    <div className="student_content_3_top accordion" id="studentAccordion">
-                        <div className="accordion-item">
+                    <div className="student_content_3_top accordion d-flex flex-column gap-2" id="studentAccordion">
+                        <div className="accordion-item ">
                             <h2 className="accordion-header" id="headingProfile">
                                 <button
-                                    className="accordion-button"
+                                    className="accordion-button "
                                     type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseProfile"
@@ -346,7 +346,7 @@ const StudentProfileRight = () => {
                                     <path d="M4.5 8.66669L17 3.66669L19 8.66669M2 8.66669H22V11.6667C20.5 11.6667 19 12.6667 19 14.4167C19 16.1667 20.5 17.6667 22 17.6667V20.6667H2V17.6667C3.5 17.6667 5 16.6667 5 14.6667C5 12.6667 3.5 11.6667 2 11.6667V8.66669Z" stroke="#EDEDED" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M8.5 13.3594H11.5M8.5 16.3594H15.5" stroke="#EDEDED" stroke-width="1.6" stroke-linecap="round" />
                                 </svg>
-                                <div className="position-absolute top-20 end-0 left-10 translate-middle rounded-circle"
+                                <div className="position-absolute top-20 end-0 left-10 rounded-circle"
                                     style={{
                                         width: '15px',
                                         height: '15px',
